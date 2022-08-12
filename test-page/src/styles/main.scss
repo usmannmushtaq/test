@@ -1,0 +1,182 @@
+body {
+  background-color: #101218 !important;
+}
+
+.subscription {
+  font-size: 22px !important;
+  font-weight: normal !important;
+  padding-top: 30px !important;
+  text-transform: capitalize !important;
+  color: #fff !important;
+}
+
+.pro {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  color: #fff !important;
+  padding-bottom: 15px !important;
+}
+
+.head-para {
+  font-size: 15px !important;
+  color: gray !important;
+  font-weight: normal !important;
+  padding-top: 10px !important;
+}
+
+.card-1-main {
+  height: auto !important;
+  width: 100% !important;
+  background-color: rgba(96, 96, 96, 0.19) !important;
+  border-radius: 10px !important;
+  margin-top: 50px !important;
+  border: 1px solid rgba(128, 128, 128, 0.175) !important;
+  padding: 30px !important;
+}
+
+.card-1-main-2 {
+  height: auto !important;
+  width: 100% !important;
+  background-color: rgba(96, 96, 96, 0.19) !important;
+  border-radius: 10px !important;
+  margin-top: 50px !important;
+  border: 1px solid rgba(128, 128, 128, 0.175) !important;
+  padding: 30px !important;
+}
+
+.card-btn {
+  font-size: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  background-color: rgba(131, 218, 255, 0.144) !important;
+  border: 1px solid rgb(131, 218, 255) !important;
+  color: rgb(131, 218, 255) !important;
+  margin-left: 10px !important   ;
+}
+
+.card-1-main-3 {
+  height: auto !important;
+  width: 100% !important;
+  background-color: rgba(96, 96, 96, 0.19) !important;
+  border-radius: 10px !important;
+  margin-top: 30px !important;
+  border: 1px solid rgba(128, 128, 128, 0.175) !important;
+  padding: 30px !important;
+}
+
+.card-price {
+  font-size: 22px !important;
+  color: #fff !important;
+}
+
+.card-plans {
+  font-size: 18px !important;
+  color: rgb(190, 124, 0) !important;
+  font-weight: normal !important;
+  padding-top: 10px !important;
+  align-items: center !important;
+  display: flex !important;
+}
+
+.border-bottom {
+  height: 1px !important;
+  background-color: rgba(66, 66, 66, 0.516) !important;
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+}
+
+.card-2-visa-div {
+  height: auto !important;
+  background-color: rgba(128, 128, 128, 0.105) !important;
+  width: 100% !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.card-2-btn {
+  background-color: rgba(128, 128, 128, 0.089) !important;
+  border: 1px solid rgba(128, 128, 128, 0.16) !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+}
+
+.drawer {
+  display: none !important;
+}
+
+.text-align {
+  text-align: right !important;
+}
+
+.padding-right {
+  padding-right: 70px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+@media (max-width: 599px) {
+  .text-align {
+    text-align: left !important;
+    // padding-top: 20px !important;
+  }
+
+  .button-align {
+    justify-content: right !important;
+    display: flex !important;
+  }
+}
+
+@media (max-width: 1050px) {
+  .padding-right {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+}
+
+@media (max-width: 995px) {
+  .padding-right {
+    padding-left: 20px !important;
+  }
+}
+
+@media (max-width: 912px) {
+  .padding-right {
+    padding-left: 30px !important;
+  }
+}
+
+@media (max-width: 899px) {
+  .dashboardsidebar {
+    display: none !important;
+  }
+
+  .drawer {
+    display: block !important;
+  }
+  .padding-right {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .padding-right {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+.table-main-div {
+  width: 100% !important;
+}
+
+.max-width-table {
+  width: 100% !important;
+}
